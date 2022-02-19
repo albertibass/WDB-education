@@ -1,0 +1,184 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny{
+    height: 17.5%
+  }
+
+  .superskinny {
+    height: 11.1%;
+  }
+
+  .minlength{
+    width: 6.667%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .center {
+    margin: auto;
+    width: 100%;
+    margin-top: 100 px;
+  }
+
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+  
+  .mexicomiddle {
+    width: 33.3%;
+    margin-top: 15%;
+    
+  }
+  img {max-width:100%;}
+
+  .float-container {
+    border: 0px;
+}
+
+.float-childblue {
+    float: left;
+    background-color: blue;
+    width: 33px;
+    height: 33px
+}  
+
+.float-childbluelong {
+  float: left;
+  background-color: blue;
+  width: 335px;
+  height: 33px
+}  
+
+.float-childwhitelong {
+  float: left;
+  background-color: white;
+  width: 335px;
+  height: 33px
+}  
+
+.float-childwhite {
+  float: left;
+  background-color: white;
+  width: 33px;
+  height: 33px
+
+}  
+
+.float-whiterow {
+  float: left;
+  background-color: white;
+  width: 500px;
+  height: 34px
+
+}  
+
+.float-bluerow {
+  float: left;
+  background-color: blue;
+  width: 500px;
+  height: 34px
+
+}  
+
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+  
+  .luxemblue{
+    background-color: #00A3E0;
+  }
+
+  .darkblue{
+    background-color: #002b7f;
+  }
